@@ -110,7 +110,7 @@ body{
 }
 
 #parteEjecutiva .topHeaderPM{
-    background: no-repeat url("../resources/img/Fondomoderno.png");
+    background: no-repeat url("Fondomoderno.png");
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -357,7 +357,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../resources/img/synthwave.jpg");
+    background-image: url("synthwave.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
