@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* height: 10000px; */
+}
+
+#ParteCulera{
+    background-color: rgb(42, 75, 104);
+    width: 100%;
+    height: 25%;
+    font-family: 'Comic Neue';
+    font-weight: 400;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ParteCulera h1{
+    color: rgb(255, 255, 255);
+
+}
+
+.containerPC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 5px dotted white;
+    /* padding: 20px; */
+    margin: 30px 60px 20px 60px;
+    width: 60%;
+    padding: 30px;
+    background-color: rgb(32, 47, 68);
+
+}
+
+#ParteCulera .PCText{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 50%;
+
+}
+
+#ParteCulera .PCText p{
+    font-size: 22px;
+
+}
+
+#ParteCulera .mainPicture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#ParteCulera .Pictures img:nth-child(2){
+    border: 10px solid transparent; /* Grosor del borde */
+    border-image: linear-gradient(to bottom left,  pink 50%, cyan 50%);
+    border-image-slice: 1;
+}
+
+#ParteCulera .Pictures img:nth-child(odd){
+    transform: rotate(-45deg);
+    width: 350px;
+    height: 150px;
+}
+
+#ParteCulera .Pictures img{
+    width: 550px;
+    height: 350px;
+    
+}
+
+#ParteCulera .Pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+#parteEjecutiva{
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#parteEjecutiva .topHeaderPM{
+    background: no-repeat url("../resources/img/Fondomoderno.png");
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#parteEjecutiva .topHeaderPM .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#parteEjecutiva .topHeaderPM .logo img{
+    width: 200px;
+}
+
+#parteEjecutiva .topHeaderPM .menuItems{
+    width: 75%;
+    color: white;
+}
+
+#parteEjecutiva .topHeaderPM .menuItems > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#parteEjecutiva .topHeaderPM .menuItems > ul > li{
+    transition: background-color 0.5s;
+    border-radius: 15px;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#parteEjecutiva .topHeaderPM .menuItems > ul > .Selected{
+    width: 110px;
+    height: 50px;
+    background-color: #199fc7;
+    
+}
+
+#parteEjecutiva .topHeaderPM .menuItems > ul > li:hover{
+   background-color: #199fc7;
+   
+}
+
+#parteEjecutiva .topHeaderPM .menuItems > ul > li > button{
+    width: 180px;
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+    background-color: #199fc7;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    Font-family: "DM Sans", sans-serif;
+}
+
+#parteEjecutiva .topHeaderPM .mainBannerPM{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#parteEjecutiva .topHeaderPM .mainBannerPM .PCText{
+    color: white;
+    width: 50%;
+}
+
+#parteEjecutiva .topHeaderPM .mainBannerPM .PCText h1{
+   font-size: 50px;
+}
+
+#parteEjecutiva .topHeaderPM .mainBannerPM .mainPicture img{
+    width: 500px;
+}
+
+#parteEjecutiva .topHeaderPM .mainBannerPM .PCText button{
+    width: 180px;
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+    background-color: #19abd7;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    Font-family: "DM Sans", sans-serif;
+}
+
+#parteEjecutiva .infoFooterPM{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parteEjecutiva .infoFooterPM .moreInfoPM{
+    text-align: center;
+    width: 50%;
+}
+
+#parteEjecutiva .infoFooterPM .moreInfoPM img{
+    width: 200px;    
+}
+
+#parteEjecutiva .infoFooterPM .photoIcons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+
+}
+
+#parteEjecutiva .infoFooterPM .photoIcons .photoIcon{
+    border: 1px solid rgba(186, 186, 186, 0.659);
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    -webkit-box-shadow: 4px 3px 8px 0px rgba(189,189,189,0.53);
+    -moz-box-shadow: 4px 3px 8px 0px rgba(189,189,189,0.53);
+    box-shadow: 4px 3px 8px 0px rgba(189,189,189,0.53);
+
+
+}
+
+#parteEjecutiva .infoFooterPM .photoIcons img{
+    width: 100px;
+}
+
+
+
+
+
+#parteModerna{
+    background-color: rgb(24, 26, 43);
+    width: 100%;
+    /* max-height: 25vh; */
+    position: relative;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+
+}
+
+#parteModerna .header {
+    position: relative;
+    width: 100%; /* Ajusta según lo necesario */
+    height: 100%; /* Ajusta la altura del header según lo necesario */
+    overflow: hidden; /* Evita que el video se expanda fuera del header */
+}
+
+#parteModerna .header .presentation{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0% 10% 0%;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+      
+
+    background: linear-gradient(45deg, #f98cf9, #eb7cb7, #f3a589, #eee690, #91e7ef, #8cb3f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite alternate;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 
+                         0 0 20px rgba(255, 255, 255, 0.6),
+                         0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+/* #parteModerna .presentation::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 100px);
+    clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
+} */
+
+#parteModerna .header .presentation button{
+    background: linear-gradient(45deg, #ff6ec4, #a854f5, #3b82f6);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+#parteModerna .header video{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; /*Para cambiar el alto del contenedor y del video hay que quitar el overflow :hiden del header*/
+        object-fit: cover;
+}
+
+#parteModerna .header .capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.3;
+    /* mix-blend-mode: overlay; */
+}
+
+#parteModerna .header .presentation button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(255, 110, 196, 0.5);
+}
+
+#parteModerna .middle{
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resources/img/synthwave.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+
+#parteModerna .middle h1{
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    /* animation: gradientAnimation 3s infinite alternate; */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 
+                         0 0 20px rgba(255, 255, 255, 0.6),
+                         0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+#parteModerna .middle h2 {
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    /* animation: gradientAnimation 3s infinite alternate; */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 
+                         0 0 20px rgba(255, 255, 255, 0.6),
+                         0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+#parteModerna .middle .carousel{
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    box-shadow: 0px 0px 10px 4px rgba(189,189,189,0.53);
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#parteModerna .middle .carousel .slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+    border-radius: 15px;
+
+}
+
+#parteModerna .middle .carousel .slide > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 15px;
+
+}
+
+#parteModerna .middle .carousel .slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.carousel-button{
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+    transition: .3s ease;
+}
+
+.carousel-button:hover,
+.carousel-button:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+    transition: .3s ease;
+}
+
+.carousel-button:focus{
+    outline: 1px solid black;
+    
+}
+
+.carousel-button.prev {
+    left: 1rem;
+  }
+  
+.carousel-button.next {
+  right: 1rem;
+}
+
+#parteModerna .footer .moreJobs {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#parteModerna .footer .moreJobs h1{
+    text-align: center;
+    color: rgb(243, 242, 242);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 
+                         0 0 10px rgba(255, 255, 255, 0.6),
+                         0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+#parteModerna .footer .moreJobs hr{
+    border: none;
+    height: 4px;
+    width: 95%;
+    background: linear-gradient(45deg, #ff00ff, #ff1493, #ff4500, #ffea00, #00eaff, #3b82f6);
+    background-size: 300% 300%;
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+#parteModerna .footer .moreJobs .jobs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#parteModerna .footer .moreJobs .jobs .job{
+    margin: 0px 40px 0px 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 4px rgba(189,189,189,0.53);
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 
+                         0 0 10px rgba(255, 255, 255, 0.6),
+                         0 0 15px rgba(255, 255, 255, 0.6);
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    /* background: linear-gradient(to bottom left,  rgb(81 43 212) 50%, #a854f5 50%); */
+    background:#7223b9;
+    transition: .3s ease
+}
+
+#parteModerna .footer .moreJobs .jobs .job:hover{
+    transform: translateY(-10%);
+    box-shadow: 5px 4px 10px 4px rgb(189, 189, 189);
+    transition: .3s ease
+
+}
+
+#parteModerna .footer .moreJobs .jobs .job .title-place{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parteModerna .footer .moreJobs .jobs .job .job-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parteModerna .footer .eduCert{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#parteModerna .footer .eduCert h1{
+    text-align: center;
+    color: rgb(243, 242, 242);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 
+                         0 0 10px rgba(255, 255, 255, 0.6),
+                         0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+#parteModerna .footer .eduCert hr{
+    border: none;
+    height: 4px;
+    width: 95%;
+    background: linear-gradient(45deg, #ff00ff, #ff1493, #ff4500, #ffea00, #00eaff, #3b82f6);
+    background-size: 300% 300%;
+    animation: gradientAnimation 3s infinite alternate;
+}
+
+#parteModerna .footer .eduCert .eduOrCert .edu{
+    margin: 20px 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 4px rgba(189,189,189,0.53);
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 
+                         0 0 10px rgba(255, 255, 255, 0.6),
+                         0 0 15px rgba(255, 255, 255, 0.6);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    background: rgb(196 76 76);
+    transition: .3s ease
+}
+
+#parteModerna .footer .eduCert .eduOrCert .edu:hover{
+    transform: translateY(-10%);
+    box-shadow: 5px 4px 10px 4px rgb(189, 189, 189);
+    transition: .3s ease
+
+}
+
+#parteModerna .footer .eduCert .eduOrCert .edu .title-place{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parteModerna .footer .eduCert .eduOrCert .edu .job-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+#parteFlat{
+    background-color: rgb(168, 90, 90);
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+    font-family: "Nunito", sans-serif;
+
+}
+
+#parteFlat .header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#parteFlat .header .formContact{
+    z-index: 1;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#parteFlat .header .formContact form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 15px;
+    /* background-color: rgb(255 101 101); */
+    color: white;
+}
+
+#parteFlat .header .formContact form input{
+    width: 70%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+}
+
+#parteFlat .header .formContact form textarea{
+    width: 70%;
+    height: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+}
+
+#parteFlat .header .formContact button{
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color:black;
+    border: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#parteFlat .header .formContact button img{
+    width: 20px;
+    color:white;
+}
+
+#parteFlat .header .ilustration{
+    z-index: 1;
+    width: 50%;
+    
+}
+
+#parteFlat .header .ilustration img{
+    width: 100%;
+}
+
+#parteFlat .header .rectangle{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(247, 57, 57);
+    position: absolute;
+    right: 5%;
+    transform: rotate(-30deg);
+    border-radius: 15px;
+}
+
+#parteFlat .header .square{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(146, 57, 247);
+    position: absolute;
+    right: 5%;
+    transform: rotate(45deg);
+    border-radius: 15px;
+}
+
+#parteFlat .header .circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(241, 243, 116);
+    border-radius: 50%;
+    position: absolute;
+    left: -50px;
+}
+
+
+
+
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+
+
+
